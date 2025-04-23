@@ -1,12 +1,45 @@
-# React + Vite
+# 💱 React Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React-based Currency Converter** built with **Tailwind CSS**. Easily convert between currencies using live exchange rates from an external API. Built with custom hooks for clean and efficient state management.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Real-time currency conversion
+- Choose base and target currencies
+- Input custom amount
+- Fetches live exchange rates from an API
+- Clean, responsive UI with Tailwind CSS
+- Built using React Hooks & custom hooks
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Technologies Used
+
+- React
+- Tailwind CSS
+- API: https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.min.json
+- Custom React Hooks
+- Hooks: `useState`, `useEffect`, `customHook`
+
+---
+
+## 📦 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/AishGg/Currency-Converter.git
+cd Currency-Converter
+```
+### 2. Install Dependencies
+
+```bash
+npm install
+````
+### 3. Run Application
+
+```bash
+npm run dev
+````
